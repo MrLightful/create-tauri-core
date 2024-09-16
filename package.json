@@ -50,7 +50,7 @@
         "@eslint/js": "^9.10.0",
         "@tauri-apps/cli": "2.0.0-rc.13",
         "@types/node": "^22.5.5",
-        "@types/react": "^18.3.5",
+        "@types/react": "^18.3.6",
         "@types/react-dom": "^18.2.7",
         "@vitejs/plugin-react": "^4.2.1",
         "autoprefixer": "^10.4.20",

@@ -1,0 +1,40 @@
+{
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:1420"
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  },
+  "productName": "create-tauri-core",
+  "version": "0.1.0",
+  "identifier": "com.tauri.app",
+  "plugins": {
+    "process": {
+      "active": true
+    }
+  },
+  "app": {
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "Tauri App",
+        "width": 1000,
+        "height": 600,
+        "dragDropEnabled": false
+      }
+    ]
+  }
+}

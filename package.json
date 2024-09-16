@@ -1,0 +1,70 @@
+{
+    "name": "create-tauri-core",
+    "version": "1.0.0",
+    "description": "A project template for creating a Tauri app with Vite, React, and Tailwind CSS.",
+    "keywords": [
+        "shadcn",
+        "tauri",
+        "vite",
+        "react",
+        "tailwindcss",
+        "ui",
+        "desktop"
+    ],
+    "homepage": "https://github.com/MrLightful/create-tauri-core",
+    "author": {
+        "name": "MrLightful",
+        "url": "https://mrlightful.com"
+    },
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "tauri": "tauri",
+        "prepare": "husky",
+        "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+        "format": "prettier --write ."
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
+    },
+    "dependencies": {
+        "@radix-ui/react-slot": "^1.1.0",
+        "@radix-ui/react-tooltip": "^1.1.2",
+        "@tauri-apps/api": "^2.0.0-rc.4",
+        "@tauri-apps/plugin-process": "2.0.0-rc.1",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "lucide-react": "^0.441.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-error-boundary": "^4.0.13",
+        "react-hook-form": "^7.53.0",
+        "react-router-dom": "^6.26.2",
+        "tailwind-merge": "^2.5.2",
+        "tailwindcss-animate": "^1.0.7"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.10.0",
+        "@tauri-apps/cli": "2.0.0-rc.13",
+        "@types/node": "^22.5.5",
+        "@types/react": "^18.3.5",
+        "@types/react-dom": "^18.2.7",
+        "@vitejs/plugin-react": "^4.2.1",
+        "autoprefixer": "^10.4.20",
+        "eslint": "^9.10.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-react": "^7.36.1",
+        "globals": "^15.9.0",
+        "husky": "^9.1.6",
+        "lint-staged": "^15.2.10",
+        "postcss": "^8.4.47",
+        "prettier": "3.3.3",
+        "tailwindcss": "^3.4.11",
+        "typescript": "^5.6.2",
+        "typescript-eslint": "^8.5.0",
+        "vite": "^5.4.5"
+    }
+}

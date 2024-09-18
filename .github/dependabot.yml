@@ -4,7 +4,19 @@ updates:
       directory: '/'
       schedule:
           interval: 'weekly'
-          day: 'monday'
+          day: 'thursday'
+          time: '08:00'
+          timezone: 'Europe/Amsterdam'
+      groups:
+          dependencies:
+              update-types:
+                  - 'minor'
+                  - 'patch'
+    - package-ecosystem: 'cargo'
+      directory: '/src-tauri'
+      schedule:
+          interval: 'weekly'
+          day: 'thursday'
           time: '08:00'
           timezone: 'Europe/Amsterdam'
       groups:

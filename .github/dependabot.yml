@@ -3,7 +3,7 @@ updates:
     - package-ecosystem: 'npm'
       directory: '/'
       schedule:
-          interval: 'weekly'
+          interval: 'monthly'
           day: 'thursday'
           time: '08:00'
           timezone: 'Europe/Amsterdam'
@@ -15,7 +15,7 @@ updates:
     - package-ecosystem: 'cargo'
       directory: '/src-tauri'
       schedule:
-          interval: 'weekly'
+          interval: 'monthly'
           day: 'thursday'
           time: '08:00'
           timezone: 'Europe/Amsterdam'

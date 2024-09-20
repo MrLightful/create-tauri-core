@@ -32,7 +32,7 @@ A basic Tauri setup with Vite, React, Typescript.
 
 #### Tailwind CSS
 
-A basic Tailwind CSS setup. Includes a `components.json` for Shadow UI components.
+A basic Tailwind CSS setup. Includes a `components.json` for Shadcn UI components.
 
 ### Dev Tools
 

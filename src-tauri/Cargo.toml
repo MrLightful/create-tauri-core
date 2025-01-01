@@ -11,11 +11,11 @@ edition = "2021"
 tauri-build = { version = "2.0.3", features = [] }
 
 [dependencies]
-tauri = { version = "2.0.0-rc.17", features = [] }
+tauri = { version = "2.1.1", features = [] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-tauri-plugin-shell = "2.0.2"
-tauri-plugin-process = "2.0.1"
+tauri-plugin-shell = "2.2.0"
+tauri-plugin-process = "2.2.0"
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!

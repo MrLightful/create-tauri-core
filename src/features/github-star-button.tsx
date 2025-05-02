@@ -1,4 +1,4 @@
-import { Button } from '@/common/components/ui/button'
+import { Button } from '@/components/ui/button'
 import { Star } from 'lucide-react'
 
 export default function GithubStarButton() {

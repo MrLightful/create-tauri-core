@@ -1,15 +1,15 @@
-import reactLogo from '@/features/home/components/BuiltWithLogos/assets/react.svg'
-import viteLogo from '@/features/home/components/BuiltWithLogos/assets/vite.svg'
-import tauriLogo from '@/features/home/components/BuiltWithLogos/assets/tauri.svg'
-import shadcnLogo from '@/features/home/components/BuiltWithLogos/assets/shadcn.svg'
+import reactLogo from '@/features/built-with/assets/react.svg'
+import viteLogo from '@/features/built-with/assets/vite.svg'
+import tauriLogo from '@/features/built-with/assets/tauri.svg'
+import shadcnLogo from '@/features/built-with/assets/shadcn.svg'
 
 import {
     Tooltip,
     TooltipContent,
     TooltipTrigger
-} from '@/common/components/ui/tooltip'
+} from '@/components/ui/tooltip'
 
-export default function BuiltWithLogos() {
+export default function BuiltWith() {
     return (
         <div className="flex flex-row justify-center">
             <LogoLink href="https://vitejs.dev" src={viteLogo} alt="Vite" />

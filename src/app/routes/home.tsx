@@ -1,11 +1,11 @@
-import BuiltWithLogos from '@/features/home/components/BuiltWithLogos'
-import GithubStarButton from '@/features/home/components/GithubStarButton'
+import BuiltWith from '@/features/built-with'
+import GithubStarButton from '@/features/github-star-button'
 
-export default function HomePage() {
+export function HomePage() {
     return (
         <div className="mx-32 my-32 m-auto text-center space-y-8">
             <div className="space-y-3">
-                <BuiltWithLogos />
+                <BuiltWith />
                 <h1 className="text-3xl items-center">
                     Welcome to Tauri Core template!
                 </h1>
@@ -18,3 +18,6 @@ export default function HomePage() {
         </div>
     )
 }
+
+// Necessary for react router to lazy load.
+export const Component = HomePage

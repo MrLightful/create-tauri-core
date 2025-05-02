@@ -5,7 +5,7 @@ import {
     ErrorDescription,
     ErrorActions
 } from '@/features/errors/error-base'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router'
 
 export default function NotFoundErrorPage() {
     const navigate = useNavigate()

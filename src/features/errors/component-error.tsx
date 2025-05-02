@@ -5,7 +5,7 @@ import {
     ErrorDescription,
     ErrorHeader
 } from '@/features/errors/error-base'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 import { relaunch } from '@tauri-apps/plugin-process'
 
 export default function ComponentErrorPage() {

@@ -4,7 +4,7 @@ This template should help get you started developing with [Tauri](https://tauri.
 
 The architecture is based on practices suggested by [@alan2207](https://github.com/alan2207) in his [bulletproof-react](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md).
 
-In addition, this template configures [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [Husky](https://typicode.github.io/husky/), and [Lint-staged](https://github.com/lint-staged/lint-staged) for pre-commits.
+In addition, this template configures [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [Husky](https://typicode.github.io/husky/) and [Lint-staged](https://github.com/lint-staged/lint-staged) for pre-commits.
 
 ![Demo Screenshot](./assets/demo.png)
 
@@ -56,3 +56,4 @@ Shadcn UI is awesome, but have a look at these UI components to make your app st
 
 - [Magic UI](https://magicui.design)
 - [Aceternity UI](https://ui.aceternity.com/)
+- [Easy UI](https://www.easyui.pro/)

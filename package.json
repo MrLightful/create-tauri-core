@@ -31,7 +31,7 @@
         "**/*": "prettier --write --ignore-unknown"
     },
     "dependencies": {
-        "@radix-ui/react-slot": "^1.2.0",
+        "@radix-ui/react-slot": "^1.2.3",
         "@radix-ui/react-tooltip": "^1.2.4",
         "@tailwindcss/vite": "^4.1.5",
         "@tauri-apps/api": "^2.5.0",
@@ -39,7 +39,7 @@
         "@tauri-apps/plugin-shell": "^2.2.1",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
-        "lucide-react": "^0.506.0",
+        "lucide-react": "^0.511.0",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "react-error-boundary": "^5.0.0",

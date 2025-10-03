@@ -1,5 +1,8 @@
 # Tauri: An Ultimate Project Template
 
+[![NPM Version](https://img.shields.io/npm/v/create-tauri-core)](https://www.npmjs.com/package/create-tauri-core)
+[![NPM Downloads](https://img.shields.io/npm/dm/create-tauri-core)](https://www.npmjs.com/package/create-tauri-core)
+
 This template should help get you started developing with [Tauri](https://tauri.app), [React](https://reactjs.org), [Typescript](https://typescriptlang.org) and [Tailwind CSS](https://tailwindcss.com) (w/ [shadcn/ui](https://ui.shadcn.com/)) in [Vite](https://vitejs.dev).
 
 The architecture is based on practices suggested by [@alan2207](https://github.com/alan2207) in his [bulletproof-react](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md).
@@ -14,16 +17,10 @@ In addition, this template configures [ESLint](https://eslint.org/), [Prettier](
 
 Ensure that you have the [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites) installed.
 
-#### Install dependencies
+#### Create a new project
 
 ```bash
-pnpm install
-```
-
-#### Start the development server
-
-```bash
-pnpm tauri dev
+npx create-tauri-core@latest
 ```
 
 ## What's included

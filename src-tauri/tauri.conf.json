@@ -16,7 +16,7 @@
       "icons/icon.ico"
     ]
   },
-  "productName": "create-tauri-core",
+  "productName": "create-tauri-react",
   "version": "0.1.0",
   "identifier": "com.tauri.app",
   "plugins": {

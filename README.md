@@ -1,7 +1,7 @@
 # Tauri: An Ultimate Project Template
 
-[![NPM Version](https://img.shields.io/npm/v/create-tauri-core)](https://www.npmjs.com/package/create-tauri-core)
-[![NPM Downloads](https://img.shields.io/npm/dm/create-tauri-core)](https://www.npmjs.com/package/create-tauri-core)
+[![NPM Version](https://img.shields.io/npm/v/create-tauri-react)](https://www.npmjs.com/package/create-tauri-react)
+[![NPM Downloads](https://img.shields.io/npm/dm/create-tauri-react)](https://www.npmjs.com/package/create-tauri-react)
 
 This template should help get you started developing with [Tauri](https://tauri.app), [React](https://reactjs.org), [Typescript](https://typescriptlang.org) and [Tailwind CSS](https://tailwindcss.com) (w/ [shadcn/ui](https://ui.shadcn.com/)) in [Vite](https://vitejs.dev).
 
@@ -20,7 +20,7 @@ Ensure that you have the [Tauri prerequisites](https://tauri.app/v1/guides/getti
 #### Create a new project
 
 ```bash
-npx create-tauri-core@latest
+npx create-tauri-react@latest
 ```
 
 ## What's included

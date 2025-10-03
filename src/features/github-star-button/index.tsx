@@ -5,7 +5,7 @@ export default function GithubStarButton() {
     return (
         <Button size="sm" asChild>
             <a
-                href="https://github.com/mrlightful/create-tauri-core"
+                href="https://github.com/mrlightful/create-tauri-react"
                 rel="noreferrer"
                 target="_blank"
             >

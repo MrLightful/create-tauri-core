@@ -421,7 +421,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "create-tauri-core"
+name = "create-tauri-react"
 version = "0.1.0"
 dependencies = [
  "serde",

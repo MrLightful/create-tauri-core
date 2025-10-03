@@ -1,22 +1,7 @@
 {
     "name": "create-tauri-core",
     "version": "1.0.0",
-    "description": "A project template for creating a Tauri app with Vite, React, and Tailwind CSS.",
-    "keywords": [
-        "shadcn",
-        "tauri",
-        "vite",
-        "react",
-        "tailwindcss",
-        "ui",
-        "desktop"
-    ],
-    "homepage": "https://github.com/MrLightful/create-tauri-core",
-    "author": {
-        "name": "MrLightful",
-        "url": "https://mrlightful.com"
-    },
-    "license": "MIT",
+    "description": "",
     "type": "module",
     "scripts": {
         "dev": "vite",

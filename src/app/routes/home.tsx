@@ -9,7 +9,7 @@ export function HomePage() {
                 <div className="space-y-3">
                     <BuiltWith />
                     <h1 className="text-3xl items-center">
-                        Welcome to Tauri Core template!
+                        Welcome to Tauri React template!
                     </h1>
                     <p>
                         This template is a starting point for building Tauri

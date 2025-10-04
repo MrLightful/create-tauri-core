@@ -1,0 +1,10 @@
+import { createEnv } from '@/lib/create-env'
+import { z } from 'zod'
+
+const EnvSchema = z.object({
+    // Note: the key in .env file should be prefixed with VITE_.
+    API_URL: z.string().default('http://localhost:3000')
+})
+
+const env = createEnv(EnvSchema) as z.TypeOf<typeof EnvSchema>
+export default env

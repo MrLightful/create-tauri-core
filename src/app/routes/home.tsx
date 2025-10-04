@@ -1,3 +1,4 @@
+import env from '@/config/env'
 import BuiltWith from '@/features/built-with'
 import GithubStarButton from '@/features/github-star-button'
 
@@ -14,6 +15,7 @@ export function HomePage() {
                         This template is a starting point for building Tauri
                         apps with Vite, React, and Tailwind CSS.
                     </p>
+                    <p>Env variable: {env.API_URL}</p>
                 </div>
                 <GithubStarButton />
             </div>
